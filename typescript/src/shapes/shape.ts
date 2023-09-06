@@ -1,4 +1,4 @@
 interface Shape {
-    
-    getArea: () => number
+
+    computeArea: () => number
 }
