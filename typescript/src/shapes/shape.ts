@@ -1,3 +1,4 @@
 interface Shape {
     
+    getArea: () => number
 }
