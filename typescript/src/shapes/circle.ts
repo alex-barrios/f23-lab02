@@ -1,8 +1,13 @@
 function circle(radius: number): Shape {
+    let _radius: number = radius
+
+    function getRadius(): number {
+        return _radius
+    }
+
     return {
-        radius,
         computeArea: function (): number {
-            return Math.PI * radius * radius
+            return Math.PI * getRadius() * getRadius()
         }
     }
 }
